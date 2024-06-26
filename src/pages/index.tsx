@@ -25,7 +25,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Rajko Mandic | Creative Developer',
+      title: 'AI, Three.js, Ecommerce Expert | Creative Developer',
     },
   }
 }

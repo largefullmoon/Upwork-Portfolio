@@ -46,8 +46,8 @@ const SceneIndex = ({ }) => {
         }
       >
         {/* <Model position={[0, -6, 0]} rotation={[0, -0.2, 0]} /> */}
-        <Title>{`Rajko Mandic`}</Title>
-        <TitleL>{`Rajko Mandic`}</TitleL>
+        <Title>{`AI, Three.js, Ecommerce Expert`}</Title>
+        <TitleL>{`AI, Three.js, Ecommerce Expert`}</TitleL>
         <Sparkles count={60} scale={[20, 20, 10]} size={1} speed={2} />
       </Suspense>
       <EffectComposer multisampling={0} disableNormalPass={true}>

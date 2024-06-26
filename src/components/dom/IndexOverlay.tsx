@@ -10,7 +10,7 @@ export const IndexOverlay = () => {
         <span className='text-base font-light pointer-events-none md:text-xl md:relative md:self-start text-white/50 font-ubuntu whitespace-nowrap top-28'>
           <br />Hello I&apos;m &nbsp;
           <h1 className='inline text-2xl italic normal-case md:text-3xl text-white/60 font-fog'>
-            Rajko Mandic.
+            AI, Three.js, Ecommerce Expert
           </h1>{' '}
           <br />An <span className='italic'>AI Python backend and React, TypeScript Frontend</span>&nbsp; Web Developer
           Based in The Ukraine.

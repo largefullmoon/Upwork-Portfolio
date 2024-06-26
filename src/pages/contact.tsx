@@ -31,7 +31,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Rajko Mandic | Contact',
+      title: 'AI, Three.js, Ecommerce Expert | Contact',
     },
   }
 }
