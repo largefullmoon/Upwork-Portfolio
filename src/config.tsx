@@ -3,8 +3,8 @@ import Head from 'next/head'
 const titleDefault = 'AI, Three.js, Ecommerce Expert'
 const url = 'https://daleban3d.vercel.app/'
 const description =
-  'Joseph Dale Bañares is a Creative Developer based in the Philippines. He is an autodidact with a passion for building beautiful and interactive websites.'
-const author = 'Joseph Dale Bañares'
+  'I'm a Creative Developer based in the Ukraine. He is an autodidact with a passion for building beautiful and interactive websites.'
+const author = ''
 
 const Header = ({ title = titleDefault }) => {
   return (
