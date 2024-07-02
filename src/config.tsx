@@ -2,8 +2,7 @@ import Head from 'next/head'
 
 const titleDefault = 'AI, Three.js, Ecommerce Expert'
 const url = 'https://daleban3d.vercel.app/'
-const description =
-  'I'm a Creative Developer based in the Ukraine. He is an autodidact with a passion for building beautiful and interactive websites.'
+const description = "I'm a Creative Developer based in the Ukraine. He is an autodidact with a passion for building beautiful and interactive websites."
 const author = ''
 
 const Header = ({ title = titleDefault }) => {
@@ -23,7 +22,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='description' content={description} />
         <meta
           name='keywords'
-          content='Software Engineer, Creative Developer, React Developer, Filipino Developer, 3D Develper'
+          content='Software Engineer, Creative Developer, React Developer, 3D Develper'
         />
         <meta name='robots' content='index,follow' />
         <meta name='distribution' content='web' />
