@@ -8,7 +8,7 @@ export const IndexOverlay = () => {
     <main className='relative flex flex-col h-full'>
       <div className='flex flex-col items-center justify-between h-full py-36 md:py-32'>
         <span className='text-base font-light pointer-events-none md:text-xl md:relative md:self-start text-white/50 font-ubuntu whitespace-nowrap top-28'>
-          <h1 className='inline text-2xl italic normal-case md:text-3xl text-white/60 font-fog'>
+          <h1 className='flex-wrap inline text-2xl italic md:text-3xl text-white/60 font-fog'>
             As a seasoned Python AI, OCR, RAG, and LLM Backend Expert with extensive experience in React and Vue for frontend development, I bring a robust and diverse skill set to the table. With a solid foundation built over 4 years as an AI backend engineer, I have honed my capabilities in developing and integrating advanced technologies into practical, user-friendly applications.
             Key Skills:
             Backend Development: Expertise in Python, AI, OCR (Optical Character Recognition), RAG (Retrieval-Augmented Generation), and LLM (Large Language Models).
