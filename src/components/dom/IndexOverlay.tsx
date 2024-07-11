@@ -9,7 +9,6 @@ export const IndexOverlay = () => {
       <div className='flex flex-col items-center justify-between h-full py-10'>
         <span className='text-base font-light pointer-events-none text-wrap md:text-xl md:relative md:self-start text-white/50 font-ubuntu mt-[30%]'>
           <h5 className='inline text-2xl italic md:text-3xl text-white/60 font-fog'>
-            
             As a seasoned Python AI, OCR, RAG, and LLM Backend Expert with extensive experience in React and Vue for frontend development, I bring a robust and diverse skill set to the table. With a solid foundation built over 8 years as an AI backend engineer, I have honed my capabilities in developing and integrating advanced technologies into practical, user-friendly applications.
             <br />
             <br />
@@ -21,12 +20,6 @@ export const IndexOverlay = () => {
               <li>Full-Stack Development: Seamless integration of backend and frontend technologies to build comprehensive, scalable, and efficient applications.</li>
               <li>Project Management: Leading projects from conception to deployment, ensuring alignment with client requirements and industry standards.</li>
             </ul>
-            <br />
-            <h1>Notable Projects:</h1>
-            <br />
-            Mautic 5.0 Email Saving Issue: Successfully resolved critical email saving issues for registered customers, enhancing the functionality and reliability of the Mautic 5.0 instance.
-            Forex MetaTrader Manager API Integration: Led the integration of the Forex MetaTrader Manager API into web and mobile applications, including developing a WordPress plugin and mobile apps (iOS and Android) with comprehensive features like account management, trading history, and communication tools.
-            Mastodon Docker Instance Management: Managed a Mastodon Docker instance, troubleshooting and resolving significant access issues by addressing complex error logs and ensuring a smooth user experience.
             <br />
             <h1>Career Objective:</h1>
             <br />
