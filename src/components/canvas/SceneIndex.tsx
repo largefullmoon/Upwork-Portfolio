@@ -50,7 +50,7 @@ const SceneIndex = ({ }) => {
         <TitleL>{`Python AI, Three.js, Ecommerce Expert`}</TitleL>
         <Sparkles count={60} scale={[20, 20, 10]} size={1} speed={2} />
       </Suspense>
-      <EffectComposer multisampling={0} disableNormalPass={true}>
+      {/* <EffectComposer multisampling={0} disableNormalPass={true}>
         <Bloom
           luminanceThreshold={0}
           luminanceSmoothing={0.9}
@@ -59,7 +59,7 @@ const SceneIndex = ({ }) => {
         />
         <Noise opacity={0.025} />
         <Vignette eskil={false} offset={0.1} darkness={1.1} />
-      </EffectComposer>
+      </EffectComposer> */}
       <Rig />
     </>
   )
