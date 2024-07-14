@@ -72,7 +72,7 @@ const Title = ({ children }) => {
       position={[0, 0, 0]}
       lineHeight={1.3}
       font='/FogtwoNo5.otf'
-      fontSize={width / 20}
+      fontSize={width / 25}
       material-toneMapped={false}
       anchorX='center'
       anchorY='middle'
@@ -90,7 +90,7 @@ const TitleL = ({ children }) => {
       position={[0, 0, 0]}
       lineHeight={1.3}
       font='/FogtwoNo5.otf'
-      fontSize={width / 20}
+      fontSize={width / 25}
       material-toneMapped={false}
       anchorX='center'
       anchorY='middle'
