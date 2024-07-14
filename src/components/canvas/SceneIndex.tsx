@@ -45,9 +45,9 @@ const SceneIndex = ({ }) => {
           </Html>
         }
       >
-        {/* <Model position={[0, -6, 0]} rotation={[0, -0.2, 0]} /> */}
-        <Title>{`AI, Three.js, Ecommerce`}</Title>
-        <TitleL>{`AI, Three.js, Ecommerce`}</TitleL>
+        <Model position={[0, -6, 0]} rotation={[0, -1, 0]} />
+        <Title>{`Python AI, Three.js, Ecommerce Expert`}</Title>
+        <TitleL>{`Python AI, Three.js, Ecommerce Expert`}</TitleL>
         <Sparkles count={60} scale={[20, 20, 10]} size={1} speed={2} />
       </Suspense>
       <EffectComposer multisampling={0} disableNormalPass={true}>
@@ -69,10 +69,10 @@ const Title = ({ children }) => {
   const { width } = useThree((state) => state.viewport)
   return (
     <Text
-      position={[0, 0, -10]}
+      position={[0, 0, 0]}
       lineHeight={1.3}
       font='/FogtwoNo5.otf'
-      fontSize={width / 8}
+      fontSize={width / 20}
       material-toneMapped={false}
       anchorX='center'
       anchorY='middle'
@@ -87,16 +87,16 @@ const TitleL = ({ children }) => {
   const { width } = useThree((state) => state.viewport)
   return (
     <Text
-      position={[0, 0, -10]}
+      position={[0, 0, 0]}
       lineHeight={1.3}
       font='/FogtwoNo5.otf'
-      fontSize={width / 8}
+      fontSize={width / 20}
       material-toneMapped={false}
       anchorX='center'
       anchorY='middle'
     >
       {children}
-      <meshStandardMaterial roughness={1} metalness={0.5} color='#474747' />
+      <meshStandardMaterial roughness={0.1} metalness={0.1} color='#474747' />
     </Text>
   )
 }

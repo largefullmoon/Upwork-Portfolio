@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
-const titleDefault = 'AI, Three.js, Ecommerce Expert'
-const url = 'https://daleban3d.vercel.app/'
-const description = "I'm a Creative Developer based in the Ukraine. He is an autodidact with a passion for building beautiful and interactive websites."
+const titleDefault = 'Dev Expert'
+const url = 'https://expert-portfolio.netlify.app/'
+const description = "I'm a Creative Developer based in the Ukraine. I'm an autodidact with a passion for building beautiful and interactive websites."
 const author = ''
 
 const Header = ({ title = titleDefault }) => {
