@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const titleDefault = 'Dev Expert'
 const url = 'https://expert-portfolio.netlify.app/'
-const description = "I'm a Creative Developer based in the Ukraine. I'm an autodidact with a passion for building beautiful and interactive websites."
+const description = "I'm a Creative Fullstack Developer. I love to create beautiful, interactive and responsive websites. I'm also a passionate 3D artist. I'm always looking for new challenges and new projects. I'm open to work."
 const author = ''
 
 const Header = ({ title = titleDefault }) => {
